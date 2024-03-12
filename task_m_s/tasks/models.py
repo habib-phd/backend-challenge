@@ -5,6 +5,10 @@ class Label(models.Model):
     name = models.CharField(max_length=50, unique=True)
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
 
+    class Meta:
+        # Ensure that each label name is unique per owner
+        unique_together = ['name', 'owner']
+
     def __str__(self):
         return self.name
 
