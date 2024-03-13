@@ -43,5 +43,4 @@ User 1:
 User 2:
     username='user_2', password='User_2_api_task'
     
-use the following url to login:
-    http://127.0.0.1:8000/admin/login
+when you run the server it will take you to the login page.
