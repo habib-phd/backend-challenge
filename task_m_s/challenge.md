@@ -20,27 +20,33 @@
         "python manage.py createsuperuser"
 
 
-## Running the Server
+```markdown
+# Starting the Django Server
 
-1. Start Django Server:
-   - Run the Django development server:
-        'python manage.py runserver'
-     
+To begin using the task management system, follow these steps:
 
-2. Accessing the APIs:
-    Task API Endpoints:
-        List and Create Tasks: http://127.0.0.1:8000/api/tasks/
-        Retrieve, Update, and Delete Task: http://127.0.0.1:8000/api/tasks/<task_id>/
+1. **Run the Django Development Server:**  
+   Execute the command `python manage.py runserver` in your terminal to start the Django development server.
 
-    Label API Endpoints:
-        List and Create Labels: http://127.0.0.1:8000/api/labels/
-        Retrieve, Update, and Delete Label: http://127.0.0.1:8000/api/labels/<label_id>/
+2. **Accessing the APIs:**
+   - **Task API Endpoints:**  
+     - List and Create Tasks: [http://127.0.0.1:8000/api/tasks/](http://127.0.0.1:8000/api/tasks/)
+     - Retrieve, Update, and Delete Task: [http://127.0.0.1:8000/api/tasks/<task_id>/](http://127.0.0.1:8000/api/tasks/<task_id>/)
 
-Additional Notes:
-the system already have two staff user who can CRUD tasks and lebels,you can use the following data:
-User 1:
-    username='user_1', password='User_1_api_task'
-User 2:
-    username='user_2', password='User_2_api_task'
-    
-when you run the server it will take you to the login page.
+   - **Label API Endpoints:**  
+     - List and Create Labels: [http://127.0.0.1:8000/api/labels/](http://127.0.0.1:8000/api/labels/)
+     - Retrieve, Update, and Delete Label: [http://127.0.0.1:8000/api/labels/<label_id>/](http://127.0.0.1:8000/api/labels/<label_id>/)
+
+3. **Additional Notes:**
+   - The system already contains two staff users who can perform CRUD operations on tasks and labels. You can use the following credentials to log in:
+     - User 1: 
+       - Username: 'user_1'
+       - Password: 'User_1_api_task'
+     - User 2: 
+       - Username: 'user_2'
+       - Password: 'User_2_api_task'
+
+4. **Accessing the Login Page:**
+   When you run the server, it will redirect you to the login page.
+
+
