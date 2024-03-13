@@ -60,8 +60,7 @@ You are tasked with building a backend for a simple task management system. The 
 
 Once you have completed the challenge, please send us the link to your GitHub repository. Make sure to include any relevant instructions for running the application and any additional notes you'd like to share on the `challenge.md` file.
 
-> [!IMPORTANT]
-> You will have 72 hours to complete this challenge.
+
 
 Thank you, and good luck!
 
