@@ -1,6 +1,6 @@
-## Django Project Setup and Run Instructions
+# Django Project Setup and Run Instructions
 
-# Setup Instructions
+## Setup Instructions
 
 1. Clone the Repository: 
    - Open your terminal.
